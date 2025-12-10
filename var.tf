@@ -7,3 +7,5 @@ variable "vmusername" { type = string }
 #variable "ssh_public_key" { type = string }
 #variable "tags" { type = map(string) default = {} }'
 variable "vmpassword" { type = string }
+
+Hello
