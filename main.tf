@@ -74,3 +74,14 @@ module "vm1" {
   
 }
 */
+
+module "linux_vm1" {
+  source     = "./Modules/Linux-Module"
+  vmname     = "Dev-Linux"
+  rgname     = azurerm_resource_group.rg.name
+  rglocation = azurerm_resource_group.rg.location
+  subnetid   = module.vnet.subnetid      # pass the subnet id (from your vnet module)
+  vmsize     = "Standard_D2s_v3"
+   vmusername = "sai"
+  vmpassword = "Puligundla@2025"
+}
