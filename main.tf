@@ -85,3 +85,6 @@ module "linux_vm1" {
    vmusername = "sai"
   vmpassword = "Puligundla@2025"
 }
+
+# New Feature: updated by Sai Prasad
+ 
