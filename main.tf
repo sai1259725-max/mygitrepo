@@ -75,6 +75,8 @@ module "vm1" {
 }
 */
 
+New Update
+
 module "linux_vm1" {
   source     = "./Modules/Linux-Module"
   vmname     = "Dev-Linux"
