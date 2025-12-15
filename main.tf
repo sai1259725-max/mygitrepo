@@ -108,4 +108,20 @@ module "vm1" {
   vmpassword = "Puligundla@2025"
   
 }
+
+sai
+----------------------------------------------------------------------------------------------------------------------------------
+
+/*
+module "vm1" {
+  source = "./Modules/Vm-module"
+  rgname = azurerm_resource_group.rg.name
+  rglocation = azurerm_resource_group.rg.location
+  subnetid = module.vnet2.subnetid
+  vmsize = "Standard_D2as_v5"
+  vmname = "Linux-Vm"
+  vmusername = "Sai"
+  vmpassword = "Puligundla@2025"
+  
+}
  
